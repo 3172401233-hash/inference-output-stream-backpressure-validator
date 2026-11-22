@@ -1,0 +1,13 @@
+{
+  "name": "inference-output-stream-backpressure-validator",
+  "version": "1.0.0",
+  "description": "验证流式推理输出、客户端背压和资源释放（本地模拟，无真实网络写入）",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/index.js"
+  }
+}
